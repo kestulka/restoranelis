@@ -1,0 +1,100 @@
+.restorano_img-60vh {
+  height: 60vh;
+  width: auto;
+  object-fit: cover;
+}
+.restorano_img-40vh {
+  height: 40vh;
+  width: auto;
+  object-fit: cover;
+}
+.image-30vh {
+  height: 30vh;
+  width: auto;
+  object-fit: cover;
+}
+
+.slideshow-image-size {
+  width: 1800px;
+  height: 65vh;
+  object-fit: cover;
+}
+.image-60vh {
+  height: 60vh;
+  width: auto;
+  object-fit: cover;
+}
+
+.header {
+  background: url("https://t4.ftcdn.net/jpg/04/43/37/07/360_F_443370711_sqHRnSIQovW6uyQ5ZwDpd4kjCG8Q6swm.jpg");
+  background-size: cover;
+  padding: 0;
+  height: 100px;
+  position: relative;
+}
+.section-max-width {
+  max-width: 1800px;
+  margin: 0 auto;
+}
+.margin-auto {
+  margin: 0 auto;
+}
+
+.carousel-text_class {
+  margin-top: 1rem;
+  text-align: center;
+}
+.dienosPietus_button_class {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.align-socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 1em;
+}
+.larger-icon {
+  font-size: 4rem;
+}
+a {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: italic;
+}
+
+hr {
+  border-top: 2px solid black;
+  margin: 0;
+}
+@media (max-width: 768px) {
+  .navbar-nav .nav-link,
+  .dropdown-menu,
+  .dropdown-item {
+    background-color: black;
+    opacity: 0.7;
+    color: white;
+  }
+}
+
+.scroll-content {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.scroll-content::-webkit-scrollbar {
+  width: 0;
+}
+
+.scroll-content {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.scroll-content-content {
+  height: auto;
+  overflow: auto;
+}
